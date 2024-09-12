@@ -1,6 +1,6 @@
 <div align="center">
 
-https://github.com/user-attachments/assets/51caf2e4-6ac6-4f37-9760-04954b8ecf0e
+  <img src="https://user-images.githubusercontent.com/99184393/185779974-a31a9f47-f8d3-42ea-b7f8-4a2971774615.png" alt="logo" width="250" height="auto" />
 
 # Airbnb Clone
   
@@ -12,51 +12,111 @@ MERN Stack Airdnd Clone with MongoDB, Express, React.js, Node.js and Tailwind CS
 
 <br />
 
+---
+
 ## :star2: About the Project
-x
-## Video Demo - Logging in and Making a Reservation
 
-In the demo below, you can see how users log in and make a reservation in the Airdnd clone.
+The **Airdnd Clone** is a fully functional web application built using the **MERN** stack (MongoDB, Express, React.js, and Node.js), designed to replicate the core functionality of **Airbnb**. It allows users to search for accommodations, make bookings, manage reservations, and even host their own properties. The project demonstrates a deep understanding of full-stack development using modern technologies and industry-standard best practices.
 
-<div align="center">
-https://github.com/user-attachments/assets/f9e51ecb-7729-44fc-9eb4-b1d02be83a83
+### :house_with_garden: Key Features
+
+- **User Authentication**: Users can register, log in, and manage their accounts. The app supports full authentication with password encryption for secure access.
+  
+- **Search and Book Accommodations**: The platform allows users to search for available places using various filters and make reservations for desired dates.
+  
+- **Host Management**: Users can list their properties as hosts, complete with photos, descriptions, and availability management.
+  
+- **Booking Management**: Users can view their past and upcoming reservations, with options to modify or cancel bookings as needed.
+  
+- **Responsive Design**: The application is fully responsive and optimized for a seamless experience across devices, including desktops, tablets, and smartphones.
+  
+- **Modern UI with Tailwind CSS**: The application UI is built using Tailwind CSS, offering a sleek and modern design that mimics Airbnb's user interface.
+
+### :video_camera: Video Demos
+
+<div align="left">
+  <a href="./assets/Untitled1.mov" download>1. Logging in and Making a Reservation</a>
+</div>
+<div align="left">
+  <a href="./assets/Untitled4.mov" download>2. Download or view the booking demo</a>
+</div>
+<div align="left">
+  <a href="./assets/Untitled2.mov" download>3. Download or view user bookings and hosting demo</a>
+</div>
+<div align="left">
+  <a href="./assets/Untitled3.mov" download>4. Download or view the cancellation demo</a>
 </div>
 
-<br />
-
-## Video Demo - Bookings Page
-
-In the demo below, you can see users bookings page and hosting a airbnb.
-
-<div align="center">
-  https://github.com/user-attachments/assets/c89c99f5-9782-48f6-9c64-a73b120b7be3
-</div>
-
-<br />
-
-## Video Demo - Cancel Reservation
-
-In the demo below, you can see users cancel their respective bookings
-
-<div align="center">
-https://github.com/user-attachments/assets/8ee579ba-434b-4cb9-9c47-68449ceb59cb
-</div>
 
 
-<br />
+
+  
+### :wrench: Architecture and Design
+
+#### Frontend:
+- **React.js**: The client side is built with React.js, using component-based architecture to ensure scalability and reusability. The application follows a clean structure to support various features like user authentication, accommodation listing, and bookings.
+- **Tailwind CSS**: The app uses Tailwind CSS to create a responsive and aesthetically pleasing user interface with utility-first styling.
+  
+#### Backend:
+- **Node.js & Express**: The server side is built using Node.js and Express.js, handling the logic for user authentication, data validation, and routing.
+- **MongoDB**: MongoDB is used as the primary database for storing user data, bookings, and property listings. It’s a NoSQL database well-suited for scalable applications like Airdnd.
+  
+#### Additional Features:
+- **JWT Authentication**: Secure authentication using JSON Web Tokens (JWT), allowing for protected routes and personalized user experiences.
+- **Image Uploads**: Integrated image upload feature for property listings, allowing hosts to upload images of their properties.
+- **Real-time Availability**: Check-in and check-out dates are validated in real-time to prevent double bookings or availability conflicts.
+  
+### :rocket: Installation and Setup
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/ishaanJ91/airdnd-clone.git
+   ```
+
+2. **Install Dependencies**:
+   Navigate to both the `client` and `server` directories and install the necessary packages:
+   ```bash
+   cd client
+   npm install
+   ```
+   ```bash
+   cd ../server
+   npm install
+   ```
+
+3. **Environment Variables**:
+   Create a `.env` file in the `server` folder and include the following environment variables:
+   - `MONGO_URL`: MongoDB connection string
+   - `JWT_SECRET`: Secret key for JWT authentication
+
+4. **Run the App**:
+   - Start the server:
+     ```bash
+     cd server
+     npm run start
+     ```
+   - Start the client:
+     ```bash
+     cd client
+     npm run start
+     ```
 
 ### :space_invader: Tech Stack
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li>React.js</li>
-    <li>Node.js</li>
-    <li>TailwindCSS</li>
-  </ul>
-</details>
+The project is built using the following technologies:
 
-<details>
-<summary>Database</summary>
-  <ul> <li>MongoDB</li> </ul>
-</details>
+#### Client:
+- **React.js**: For building the user interface and handling user interactions.
+- **TailwindCSS**: A utility-first CSS framework to design a responsive and modern UI.
+- **Axios**: To handle API requests between the client and server.
+  
+#### Server:
+- **Node.js & Express**: To handle server-side logic, route management, and business logic.
+- **MongoDB**: A NoSQL database for storing user data, bookings, and property listings.
+---
+
+### :construction_worker: Contribution
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
